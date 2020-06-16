@@ -12,8 +12,8 @@ pkg install git
 pkg inatall python2
 pip install requests
 pip install mechanize
-
-cd SH.RAFIN
+https://github.com/ShymonHasan/SH-Mithi
+cd SH-Mithi
 python2 SH.MITHI
 ```
 Thank You So Much
