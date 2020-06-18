@@ -334,9 +334,9 @@ def mini():
             r = requests.get('https://graph.facebook.com/' + id + '?access_token=' + toket)
             a = json.loads(r.text)
             print '\x1b[1;91m[\xe2\x9e\xb9] \x1b[1;92mNama\x1b[1;97m : ' + a['name']
-            jalan('\x1b[1;91m[+] \x1b[1;92mMemeriksa \x1b[1;97m...')
+            jalan('\x1b[1;91m[+] \x1b[1;92mMembers \x1b[1;97m...')
             time.sleep(2)
-            jalan('\x1b[1;91m[+] \x1b[1;92mMembuka keamanan \x1b[1;97m...')
+            jalan('\x1b[1;91m[+] \x1b[1;92mMembers Checking \x1b[1;97m...')
             time.sleep(2)
             jalan('\x1b[1;91m[\xe2\x9c\xba] \x1b[1;92mChecking SH \x1b[1;97m...')
             print 40 * '\x1b[1;97m\xe2\x95\x90'
