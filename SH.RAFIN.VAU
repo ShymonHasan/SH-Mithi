@@ -23,7 +23,7 @@ def jalan(z):
         time.sleep(0.01)
 
 
-logo = 'RAFIN VAU LOVE SH...\x1b[1;92m\n\xe2\x95\x94\xe2\x95\xa6\xe2\x95\x97\xe2\x94\x8c\xe2\x94\x80\xe2\x94\x90\xe2\x94\xac\xe2\x94\x80\xe2\x94\x90\xe2\x94\xac\xe2\x94\x8c\xe2\x94\x80   \xe2\x95\x94\xe2\x95\x90\xe2\x95\x97\xe2\x95\x94\xe2\x95\x97 \n \xe2\x95\x91\xe2\x95\x91\xe2\x94\x9c\xe2\x94\x80\xe2\x94\xa4\xe2\x94\x9c\xe2\x94\xac\xe2\x94\x98\xe2\x94\x9c\xe2\x94\xb4\xe2\x94\x90\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\xa0\xe2\x95\xa3 \xe2\x95\xa0\xe2\x95\xa9\xe2\x95\x97\n\xe2\x95\x90\xe2\x95\xa9\xe2\x95\x9d\xe2\x94\xb4 \xe2\x94\xb4\xe2\x94\xb4\xe2\x94\x94\xe2\x94\x80\xe2\x94\xb4 \xe2\x94\xb4   \xe2\x95\x9a  \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x9d \x1b[1;93mv2.0.SH\n\x1b[1;93m* \x1b[1;97mAuthor   \x1b[1;91m: \x1b[1;96mShymon Hasan\x1b[1;97m\n\x1b[1;93m* \x1b[1;97mFacebook \x1b[1;91m: \x1b[1;93mI.FueK.YoUr.MiNd.BnXD\x1b[1;97m\x1b[1;96m\x1b[1;97m \x1b[1;97m                               \x1b[1;93m* \x1b[1;97mYoutube  \x1b[1;91m: Feelings Creation\n\x1b[1;93m* \x1b[1;97mGitHub   \x1b[1;91m: \x1b[1;92m\x1b[94mhttps://github.com/ShymonHasan\x1b[0m\n[*] Decompiled by ShymonHasan {Rafin Vau}[*]\n'
+logo = 'RAFIN VAU LOVE SH...\x1b[1;92m\n\xe2\x95\x94\xe2\x95\xa6\xe2\x95\x97\xe2\x94\x8c\xe2\x94\x80\xe2\x94\x90\xe2\x94\xac\xe2\x94\x80\xe2\x94\x90\xe2\x94\xac\xe2\x94\x8c\xe2\x94\x80   \xe2\x95\x94\xe2\x95\x90\xe2\x95\x97\xe2\x95\x94\xe2\x95\x97 \n \xe2\x95\x91\xe2\x95\x91\xe2\x94\x9c\xe2\x94\x80\xe2\x94\xa4\xe2\x94\x9c\xe2\x94\xac\xe2\x94\x98\xe2\x94\x9c\xe2\x94\xb4\xe2\x94\x90\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\xa0\xe2\x95\xa3 \xe2\x95\xa0\xe2\x95\xa9\xe2\x95\x97\n\xe2\x95\x90\xe2\x95\xa9\xe2\x95\x9d\xe2\x94\xb4 \xe2\x94\xb4\xe2\x94\xb4\xe2\x94\x94\xe2\x94\x80\xe2\x94\xb4 \xe2\x94\xb4   \xe2\x95\x9a  \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x9d \x1b[1;93mv2.0.SH\n\x1b[1;93m* \x1b[1;97mAuthor   \x1b[1;91m: \x1b[1;96mShymon Hasan\x1b[1;97m\n\x1b[1;93m* \x1b[1;97mFacebook \x1b[1;91m: \x1b[1;93mI.FueK.YoUr.MiNd.BnXD\x1b[1;97m\x1b[1;96m\x1b[1;97m \x1b[1;97m                      \x1b[1;93m* \x1b[1;97mYoutube  \x1b[1;91m: Feelings Creation\n\x1b[1;93m* \x1b[1;97mGitHub   \x1b[1;91m: \x1b[1;92m\x1b[94mhttps://github.com/ShymonHasan\x1b[0m\n[*] Decompiled by ShymonHasan {Rafin Vau}[*]\n'
 
 def tik():
     titik = [
@@ -150,7 +150,7 @@ def menu():
     print '\x1b[1;37;40m1. Information Ckecking'
     print '\x1b[1;37;40m2. Hack Target Facebook'
     print '\x1b[1;37;40m3. Post Reactions SH'
-    print '\x1b[1;37;40m4. SH Rafin....        '
+    print '\x1b[1;37;40m4. Your Id Checking....        '
     print '\x1b[1;37;40m5. LogOut SH'
     print '\x1b[1;31;40m0. Keluar              '
     print
@@ -189,7 +189,7 @@ def pilih():
 
 def informasi():
     os.system('clear')
-    try:
+    
         toket = open('login.txt', 'r').read()
     except IOError:
         print '\x1b[1;91m[!] SH YOUR PASS WAS WRONG SORRY'
@@ -276,7 +276,7 @@ def menu_hack():
     print '\x1b[1;37;40m3. Any Group/Your Fans Checking'
     print '\x1b[1;37;40m4. Any Id(\x1b[1;92mTarget\x1b[1;97m)'
     print '\x1b[1;37;40m5. Yahoo Checker'
-    print '\x1b[1;37;40m6. Your id/email/hp'
+    print '\x1b[1;37;40m6. Any Id User/email/Number'
     print '\x1b[1;31;40m0. Kembali'
     print
     hack_pilih()
@@ -907,12 +907,12 @@ def grab():
     print logo
     print 40 * '\x1b[1;97m\xe2\x95\x90'
     print '\x1b[1;37;40m1. Your Fans ID Checking'
-    print '\x1b[1;37;40m2. Your ID Checking'
-    print '\x1b[1;37;40m3. Your ID member GROUP'
-    print '\x1b[1;37;40m4. Your Email Checking'
-    print '\x1b[1;37;40m5. Your Fans Email Checking'
-    print '\x1b[1;37;40m6. Your No HP Fans'
-    print '\x1b[1;37;40m7. Your Fans No HP Checking'
+    print '\x1b[1;37;40m2. Target Checking User Id'
+    print '\x1b[1;37;40m3. Your ID member GROUP Checking'
+    print '\x1b[1;37;40m4. Your Id Fans Email Checking'
+    print '\x1b[1;37;40m5. Target Email Checking'
+    print '\x1b[1;37;40m6. Your Id Number Checking'
+    print '\x1b[1;37;40m7. Target Number Checking'
     print '\x1b[1;31;40m0. Kembali'
     print
     grab_pilih()
@@ -1365,7 +1365,7 @@ def menu_bot():
     print '\x1b[1;37;40m2. You Reactions Group Post'
     print '\x1b[1;37;40m3. Your Target Post'
     print '\x1b[1;37;40m4. Your Group Post'
-    print '\x1b[1;37;40m5. Mass delete Post'
+    print '\x1b[1;37;40m5. Your All Post Deleted'
     print '\x1b[1;37;40m6. SH Rafin Vau Love'
     print '\x1b[1;37;40m7. Password By SH Mithila'
     print '\x1b[1;31;40m0. Kembali'
@@ -1717,7 +1717,7 @@ def deletepost():
             error = ok['error']['message']
             print '\x1b[1;91m[\x1b[1;97m' + id[:10].replace('\n', ' ') + '...' + '\x1b[1;91m] \x1b[1;95mGagal'
         except TypeError:
-            print '\x1b[1;92m[\x1b[1;97m' + id[:10].replace('\n', ' ') + '...' + '\x1b[1;92m] \x1b[1;96mTerhapus'
+            print '\x1b[1;92m[\x1b[1;97m' + id[:10].replace('\n', ' ') + '...' + '\x1b[1;92m] \x1b[1;96mDeleted'
             piro += 1
         except requests.exceptions.ConnectionError:
             print '\x1b[1;91m[!] Koneksi Error'
@@ -1819,10 +1819,10 @@ def lain():
     os.system('clear')
     print logo
     print 40 * '\x1b[1;97m\xe2\x95\x90'
-    print '\x1b[1;37;40m1. Buat'
-    print '\x1b[1;37;40m2. Buat Wordlist'
+    print '\x1b[1;37;40m1. Stutas Your Id'
+    print '\x1b[1;37;40m2. Stutas Wordlist'
     print '\x1b[1;37;40m3. Account Checker'
-    print '\x1b[1;37;40m4. Lihat daftar group'
+    print '\x1b[1;37;40m4. All group Limit'
     print '\x1b[1;37;40m5. Profile Guard'
     print
     print '\x1b[1;97m ->SH Coming soon<-'
@@ -1873,7 +1873,7 @@ def status():
     os.system('clear')
     print logo
     print 40 * '\x1b[1;97m\xe2\x95\x90'
-    msg = raw_input('\x1b[1;91m[+] \x1b[1;92mKetik status \x1b[1;91m:\x1b[1;97m ')
+    msg = raw_input('\x1b[1;91m[+] \x1b[1;92mType Status SH \x1b[1;91m:\x1b[1;97m ')
     if msg == '':
         print '\x1b[1;91m[!] Jangan kosong'
         raw_input('\n\x1b[1;91m[ \x1b[1;97mKembali \x1b[1;91m]')
@@ -1906,18 +1906,18 @@ def wordlist():
             print 40 * '\x1b[1;97m\xe2\x95\x90'
             a = raw_input('\x1b[1;91m[+] \x1b[1;92mNama Depan \x1b[1;97m: ')
             file = open(a + '.txt', 'w')
-            b = raw_input('\x1b[1;91m[+] \x1b[1;92mNama Tengah \x1b[1;97m: ')
-            c = raw_input('\x1b[1;91m[+] \x1b[1;92mNama Belakang \x1b[1;97m: ')
-            d = raw_input('\x1b[1;91m[+] \x1b[1;92mNama Panggilan \x1b[1;97m: ')
-            e = raw_input('\x1b[1;91m[+] \x1b[1;92mTanggal Lahir >\x1b[1;96mex: |DDMMYY| \x1b[1;97m: ')
+            b = raw_input('\x1b[1;91m[+] \x1b[1;92mName \x1b[1;97m: ')
+            c = raw_input('\x1b[1;91m[+] \x1b[1;92mName type \x1b[1;97m: ')
+            d = raw_input('\x1b[1;91m[+] \x1b[1;92mName SH \x1b[1;97m: ')
+            e = raw_input('\x1b[1;91m[+] \x1b[1;92mDate Of Birth >\x1b[1;96mex: |DDMMYY| \x1b[1;97m: ')
             f = e[0:2]
             g = e[2:4]
             h = e[4:]
             print 40 * '\x1b[1;97m\xe2\x95\x90'
             print '\x1b[1;91m[?] \x1b[1;93mKalo Jomblo SKIP aja :v'
-            i = raw_input('\x1b[1;91m[+] \x1b[1;92mNama Pacar \x1b[1;97m: ')
-            j = raw_input('\x1b[1;91m[+] \x1b[1;92mNama Panggilan Pacar \x1b[1;97m: ')
-            k = raw_input('\x1b[1;91m[+] \x1b[1;92mTanggal Lahir Pacar >\x1b[1;96mex: |DDMMYY| \x1b[1;97m: ')
+            i = raw_input('\x1b[1;91m[+] \x1b[1;92mName \x1b[1;97m: ')
+            j = raw_input('\x1b[1;91m[+] \x1b[1;92mName SH \x1b[1;97m: ')
+            k = raw_input('\x1b[1;91m[+] \x1b[1;92mTime Post >\x1b[1;96mex: |DDMMYY| \x1b[1;97m: ')
             jalan('\x1b[1;91m[\xe2\x9c\xba] \x1b[1;92mSH Checking Now \x1b[1;97m...')
             l = k[0:2]
             m = k[2:4]
@@ -2068,8 +2068,8 @@ def guard():
     os.system('clear')
     print logo
     print 40 * '\x1b[1;97m\xe2\x95\x90'
-    print '\x1b[1;37;40m1. Aktifkan'
-    print '\x1b[1;37;40m2. NonAktifkan'
+    print '\x1b[1;37;40m1. SH'
+    print '\x1b[1;37;40m2. SH Rafin Vau'
     print '\x1b[1;31;40m0. Kembali'
     print
     g = raw_input('\x1b[1;91m-\xe2\x96\xba\x1b[1;97m ')
